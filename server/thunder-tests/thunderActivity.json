@@ -1,0 +1,16 @@
+[
+  {
+    "_id": "afc4fa6e-3ca7-4cd7-b89d-9a9ae36d7f54",
+    "colId": "history",
+    "containerId": "",
+    "name": "http://localhost:5000/predict/32,32,32,32,32,32",
+    "url": "http://localhost:5000/predict/32,32,32,32,32,32",
+    "method": "GET",
+    "sortNum": 0,
+    "created": "2023-04-23T14:08:27.114Z",
+    "modified": "2023-04-23T14:08:27.114Z",
+    "headers": [],
+    "params": [],
+    "tests": []
+  }
+]
