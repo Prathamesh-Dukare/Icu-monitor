@@ -18,6 +18,13 @@
   filter: drop-shadow(0 0 2em #61dafbaa);
 }
 
+input, select{
+  background-color: white;
+  border: 2px solid black;
+  display: block;
+  width: 90%;
+}
+
 @keyframes logo-spin {
   from {
     transform: rotate(0deg);
