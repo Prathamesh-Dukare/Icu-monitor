@@ -63,7 +63,7 @@ function App() {
 
       <section>
 
-        <div className="text-black mx-auto grid grid-cols-2 gap-6 md:grid-cols-4 lg:gap-9 p-8 " >
+        <div className="text-black mx-auto flex flex-wrap gap-6 md:grid-cols-4 lg:gap-9 p-8 " >
           <TempCard temp={temp} setTemp={setTemp} />
           <EKGCard ekg={ekg} setEkg={setEkg} />
           <BPMCard bpm={bpm} setBpm={setBpm} />
@@ -76,7 +76,8 @@ function App() {
         <div>
 
           <button onClick={onSubmit}>Predict</button>
-          <h1>{result}</h1>
+          <br />
+          <h2 className='text-2xl bg-white text-black px-6 py-2 inline-block mt-3'>Result : {result}</h2>
 
 
         </div>

@@ -13,7 +13,7 @@ export default function AgeCard({ age, setAge }) {
                 setAge(document.querySelector('input').value)
             }}>
                 <h3 className='text-lg font-semibold text-gray-500'>Age</h3>
-                <input type="text" value={age} onChange={(e) => {
+                <input type="number" value={age} onChange={(e) => {
                     setAge(e.target.value)
                 }} placeholder='Enter age' required />
                 <br />
