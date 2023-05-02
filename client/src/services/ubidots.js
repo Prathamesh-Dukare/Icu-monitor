@@ -5,7 +5,7 @@ let config = {
     maxBodyLength: Infinity,
     url: 'https://industrial.api.ubidots.com/api/v1.6/devices/cpumonitor/atmhumidity/values?page_size=100&page=1',
     headers: {
-        'X-Auth-Token': 'BBFF-nGP8QTT54YpnOb6usXvT3QJaSv0oIq',
+        'X-Auth-Token': process.env.REACT_APP_UBIDOTS_TOKEN,
         'Content-Type': 'application/json'
     }
 };
